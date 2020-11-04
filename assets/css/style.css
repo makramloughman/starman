@@ -177,3 +177,34 @@ section {
   bottom: 0%;
   z-index: 1;
 }
+
+@media (max-width: 1200px) {
+
+  .container {
+    display: none;
+  }
+
+  .active {
+    display: none;
+  }
+
+  .title {
+    font-size: 20vw;
+    margin: 30% 2.5% 20% 2.5%;
+  }
+
+  .p {
+    font-size: 5vw;
+    margin: 10% 2.5% 15% 2.5%;
+    text-align: left;
+  }
+
+  .home {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+}

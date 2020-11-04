@@ -6,12 +6,13 @@
 
   <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" type="text/css" href="game.css">
-  <link rel="stylesheet" href="webfontkit-Ailerons/stylesheet.css" type="text/css" charset="utf-8"/>
-  <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
-  <script src="starfield.js" defer></script>
-  <script src="menu.js" defer></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/game.css">
+  <link rel="stylesheet" href="assets/font/ailerons/stylesheet.css" type="text/css" charset="utf-8"/>
+  <link rel="stylesheet" href="assets/font/vt323/stylesheet.css" type="text/css" charset="utf-8"/>
+  <script src="assets/js/starfield.js" defer></script>
+  <script src="assets/js/menu.js" defer></script>
+  <script src="assets/js/mobile.js" defer></script>
   <title> Starman </title>
 
 </head>
@@ -35,8 +36,16 @@
     <div class="content">
       <p class="title gradient1"> Starman </p>
       <div class="description">
-        <!-- <p class="p gradient"> Hi, </p> -->
         <p class="p gradient1"> Welcome to an other worldly experience. </p>
+      </div>
+    </div>
+  </section>
+
+  <section class='mobile'>
+    <div class="content">
+      <p class="title gradient2"> Starman </p>
+      <div class="description">
+        <p class="p gradient2">  </p>
       </div>
     </div>
   </section>
@@ -60,7 +69,7 @@
 
   <section class='spaceinvaders'>
     <div id="background">
-      <img id="hero" src="assets/rocket.png" style="display: none;">
+      <img id="hero" src="assets/img/rocket.png">
       <div id="missiles"> </div>
       <div id="enemies"> </div>
     </div>
@@ -71,8 +80,8 @@
     <p id="gameover"> </p>
     <p id="win"> </p>
     <p id="exit"> </p>
-    <script src="loader.js" defer></script>
-    <script src="game.js" defer></script>
+    <script src="assets/js/loader.js" defer></script>
+    <script src="assets/js/game.js" defer></script>
   </section>
 
   <section class='about'>
@@ -82,7 +91,7 @@
         <p class="p2 gradient3"> Hi, <br> <br> We are students at l'X and we have created this website for our CSE104 course. <br> <br> As eternal dreamers, we shot for the stars, explored space, and killed aliens along the way. </p>
       </div>
     </div>
-    <img class = "moon" src="website/moon.png" alt="Moon">
+    <img class = "moon" src="assets/img/moon.png" alt="Moon">
   </section>
 
   <section class='contact'>
@@ -92,7 +101,7 @@
         <p class="p3 gradient2"> makram.loughman@polytechnique.edu <br>sonal.sannigrahi@polytechnique.edu<br> </p>
       </div>
     </div>
-    <img class = "mars" src="website/mars.png" alt="Mars">
+    <img class = "mars" src="assets/img/mars.png" alt="Mars">
   </section>
 
 </body>

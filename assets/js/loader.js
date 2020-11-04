@@ -6,7 +6,7 @@ var counter = 0;
 function actionClicked(event) {
   init();
   if (counter == 0) {
-    start();
+    gameLoop();
     counter += 1;
   }
   else {
@@ -14,7 +14,7 @@ function actionClicked(event) {
       end.textContent = '';
       win.textContent = '';
       exit.textContent = '';
-      start();
+      gameLoop();
     }
   }
 }
