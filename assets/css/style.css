@@ -184,10 +184,6 @@ section {
     display: none;
   }
 
-  .active {
-    display: none;
-  }
-
   .title {
     font-size: 20vw;
     margin: 30% 5% 20% 5%;
@@ -203,8 +199,11 @@ section {
     display: none;
   }
 
-  .mobile {
-    display: block;
+  .active {
+    display: none;
   }
 
+  .activem {
+    display: block;
+  }
 }
