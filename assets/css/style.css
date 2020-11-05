@@ -195,10 +195,6 @@ section {
     text-align: left;
   }
 
-  .home {
-    display: none;
-  }
-
   .active {
     display: none;
   }
@@ -206,4 +202,5 @@ section {
   .activem {
     display: block;
   }
+
 }
