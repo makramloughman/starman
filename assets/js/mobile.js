@@ -11,7 +11,9 @@ function showPage() {
       setTimeout(function(){par.innerHTML = `The device you are using to play Space Invaders is not compatible. Please access the website from a PC. <br> <br> You will be redirected to the GitHub page of the project in ${j--} seconds.`}, i*1000);
     }
   } else {
-    var home = document.getElementsByClassName('home')[0];
+    var container = document.querySelector('.container');
+    container.classList.remove('hidden');
+    var home = document.querySelector('.home');
     home.classList.add('active');
   }
 }

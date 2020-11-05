@@ -120,6 +120,10 @@ section {
   display: block;
 }
 
+.hidden {
+  display: none;
+}
+
 .title2 {
   font-family: 'aileronsregular', Arial, sans-serif;
   font-size: 200px;
